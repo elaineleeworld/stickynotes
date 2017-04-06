@@ -1,0 +1,64 @@
+* {
+  background: beige;
+}
+
+#newNote {
+  background:lightgreen;
+}
+
+ul {
+  list-style-type:none;
+}
+
+
+ul li {
+  width:150px;
+  height:150px;
+  padding:10px;
+  margin:10px;
+  border:1px solid black;
+  display: inline-block;
+  float:left;
+  background: pink;
+}
+
+ul li.color1 {
+  background: yellow;
+}
+ul li.color2 {
+  background: orange;
+}
+ul li.color3 {
+  background: lightblue;
+}
+
+/*.close {
+  display:none;
+}*/
+
+img {
+    width: 20px;
+    height: 20px;
+    float:right;
+    background:pink;
+}
+
+textarea {
+  border:none;
+
+}
+
+.note-title, .note-content {
+  background:pink;
+  resize: none;
+  width:80%;
+}
+.note-title {
+  height:30px;
+  font-size:15px;
+}
+
+.note-content {
+  height:100px;
+}
+
